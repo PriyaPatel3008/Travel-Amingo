@@ -1,7 +1,7 @@
 <% layout("/layouts/boilerplate.ejs") %>
 <div class="row">
-    <div class="col-8 offset-2">
-    <h3>Edit your Airbnb details:</h3>
+    <div class="col-8 offset-2 mt-3">
+    <h3>Edit your TravelAmigo details:</h3>
     <form method="POST" action="/listings/<%= listing._id %>?_method=PUT" novalidate class="needs-validation" enctype="multipart/form-data">
         <div class="mb-2">
             <label for="title" class="form-label">Title</label>
